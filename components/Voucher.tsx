@@ -115,10 +115,11 @@ const Voucher = () => {
                 </div>
                 <div className={usc(styles, ["bannerTextContainer"])}>
                   <p>
+                    Su compra fue realizada exitosamente.
                     Tenes a disposición un paseo en velero por el río de la plata<br />
-                    <small>Coordiná la salida a través de nuestro instagram <span className="icon-instagram" /> @bairesnavega</small>
+                    Envianos el comprobante de compra a este numero de telefono xxx-xxx-xx o a nuestro instagram y a la brevedad nos comunicamos con vos para darte el voucher oficial.<br/>
+                    <small><span className="icon-instagram" /> @bairesnavega</small>
                     <br />
-                    <small>O por whatsapp al <span className="icon-wpp" /> 1121863402</small>
                   </p>
                 </div>
               </div>

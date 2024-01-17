@@ -103,7 +103,7 @@ const Form = ({ children }: any) => {
                   <div className={usc(styles, ["formInput", "timeInput", "space-top-20", "contactContainer"])} >
                     <label htmlFor={usc(styles, ["contact"])}></label>
                     <span className='icon-bubbles'></span>
-                    <input type="text" name={usc(styles, ["contact"])} onChange={handleChange} value={contact} className={usc(styles, ["contactInput"])} placeholder={"Mail/telefono de contacto"} />
+                    <input type="text" name={usc(styles, ["contact"])} onChange={handleChange} value={contact} className={usc(styles, ["contactInput"])} placeholder={"Mail de contacto"} />
                   </div>
                   <div className={usc(styles, [(isValid) ? "noError" : "displayError"])}>{emailError}</div>
                   <div className={usc(styles, ["formInput", "timeInput", "space-top-20"])} >
