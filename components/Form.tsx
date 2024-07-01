@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { usc, usb, usw } from '../utils/helpers';
 import styles from '../styles/form.module.scss';
 import Button from './Button';
-const prices = ["60.000", "90.000", "120.000", "150.000", "180.000"]
+const prices = ["70.000", "105.000", "140.000", "175.000", "210.000"]
 const max = 6;
 const min = 2;
 
@@ -59,11 +59,11 @@ const Form = ({ children }: any) => {
       localStorage.setItem("baries-people", people.toString());
       localStorage.setItem("baries-sendForm", "true");
 
-      if (people == 2) window.location.href = "https://mpago.la/1zoThhe" // 2
-      else if (people == 3) window.location.href = "https://mpago.la/2Hq4M26" // 3
-      else if (people == 4) window.location.href = "https://mpago.la/1Fv8uBc" // 4
-      else if (people == 5) window.location.href = "https://mpago.la/2v42SaS" // 5
-      else if (people == 6) window.location.href = "https://mpago.la/23X2f5A" // 6
+      if (people == 2) window.location.href = "https://mpago.la/1cUgrfT" // 2
+      else if (people == 3) window.location.href = "https://mpago.la/15kwJ3R" // 3
+      else if (people == 4) window.location.href = "https://mpago.la/2kkyaPh" // 4
+      else if (people == 5) window.location.href = "https://mpago.la/2J531N2" // 5
+      else if (people == 6) window.location.href = "https://mpago.la/2ucPP3X" // 6
       
 
       //window.location.href = "https://mpago.la/1QuSW4D"
