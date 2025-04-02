@@ -59,11 +59,11 @@ const Form = ({ children }: any) => {
       localStorage.setItem("baries-people", people.toString());
       localStorage.setItem("baries-sendForm", "true");
 
-      if (people == 2) window.location.href = "https://mpago.la/1cUgrfT" // 2
-      else if (people == 3) window.location.href = "https://mpago.la/15kwJ3R" // 3
-      else if (people == 4) window.location.href = "https://mpago.la/2kkyaPh" // 4
-      else if (people == 5) window.location.href = "https://mpago.la/2J531N2" // 5
-      else if (people == 6) window.location.href = "https://mpago.la/2ucPP3X" // 6
+      if (people == 2) window.location.href = "https://mpago.li/1FWQh2B" // 2
+      else if (people == 3) window.location.href = "https://mpago.li/2FEqCpC" // 3
+      else if (people == 4) window.location.href = "https://mpago.li/1r7Mxb3" // 4
+      else if (people == 5) window.location.href = "https://mpago.li/1obVvdm" // 5
+      else if (people == 6) window.location.href = "https://mpago.li/2dosJ3Z" // 6
       
 
       //window.location.href = "https://mpago.la/1QuSW4D"
