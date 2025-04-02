@@ -1,6 +1,6 @@
 
 ## Stack
-- node 16.13.1
+- v18.*
 - Next
 - React
 - Redux
