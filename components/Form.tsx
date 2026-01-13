@@ -3,7 +3,7 @@ import { useState } from 'react';
 import { usc, usb, usw } from '../utils/helpers';
 import styles from '../styles/form.module.scss';
 import Button from './Button';
-const prices = ["90.000", "135.000", "180.000", "225.000", "270.000"]
+const prices = ["98.000", "147.000", "196.000", "245.000", "294.000"]
 const max = 6;
 const min = 2;
 
